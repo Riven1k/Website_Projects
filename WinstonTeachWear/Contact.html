@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WinstonTechWear</title>
+    <link rel="stylesheet" href="WebsiteAssignment.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="menu.js"></script>
+</head>
+
+<body>
+    <div id="heading">
+        <header>
+            Winston TechWear
+            <div id="toggleButton">
+                <button onclick="toggleVisibility()"> ≡ </button>
+            </div>
+        </header>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="WebsiteAssignment.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>  
+
+    <main>
+        <section class="ContactUs">
+            <h1 class="Query">
+                Queries
+            </h1>
+        </section>
+        <section class="EnterInfo">
+            <form name="PersonalInfo">
+                <form action="mailto:denzel.cauchi@gmail.com" method="post" enctype="text/plain" name="personalInfo">
+                    <label for="FullName">FullName</label><br>
+                    <input name="FullName" type="text"><br>
+
+                    <label for="Email">Email</label><br>
+                    <input name="Email" type="email"><br>
+
+                    <label for="Questions">Questions</label><br>
+                    <input name="Questions" type="text"><br>
+                
+                    <button type="button" value="Submit" id="submit">Submit</button><br>
+                </form>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2021
+    </footer>
+</body>
+</html>
